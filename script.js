@@ -5,7 +5,7 @@
 
   // Jika parameter 'kepada' ada, tambahkan ke URL
   if (recipientName) {
-    const newUrl = `https://puade.github.io/unduhmantu-desmin-desy/?kepada=${recipientName}`;
+    const newUrl = `https://puade.github.io/desmin-desy/?kepada=${recipientName}`;
     // Update og:url dengan URL yang baru
     document.querySelector('meta[property="og:url"]').setAttribute("content", newUrl);
 
@@ -259,3 +259,4 @@ document.getElementById('modal-image').src = images[currentIndex];
 }
 
 //AKHIR FUNGSI POPUP FOTO
+
