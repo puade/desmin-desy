@@ -51,7 +51,7 @@ body, html {
 
 
 .frame-cover {
-  background-image: url('img/cover.jpg');
+  background-image: url('img/cover.jpeg');
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -689,5 +689,6 @@ background: transparent; /* Menyembunyikan track scrollbar */
 width: 90%;
 padding-bottom: 50px;
 }
+
 
 
